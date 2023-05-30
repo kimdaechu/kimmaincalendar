@@ -53,8 +53,8 @@ class Kakaologin2 : AppCompatActivity() {
         val next = findViewById<Button>(R.id.next) // 진행 하기
 
         next.setOnClickListener {
-            // Firstui로 이동하는 코드 추가
-            val intent = Intent(this, Firstui::class.java)
+            // 캘린더로 이동하는 코드 추가
+            val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
         }
     }

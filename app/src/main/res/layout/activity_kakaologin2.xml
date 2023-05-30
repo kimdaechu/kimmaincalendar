@@ -32,7 +32,7 @@
         android:id="@+id/next"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="계속 진행"
+        android:text="시작하기"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/kakao_logout_button"
         app:layout_constraintHorizontal_bias="0.0"
